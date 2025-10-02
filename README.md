@@ -14,9 +14,9 @@ Las ramas necesarias para la práctica ya están creadas:
 
 Para experimentar cómo resolver un conflicto en Git, sigue estos pasos:
 
-1. **Usa la rama `feature/A`** y mergea primero en `develop`.
+1. **Usa la rama `feature/A`** y mergea primero en `develop-backup`.
     - Este merge no debería presentar conflictos.
-2. **Luego usa la rama `feature/B`** y mergea en `develop`.
+2. **Luego usa la rama `feature/B`** y mergea en `develop-backup`.
     - Aquí se generará un conflicto de merge que podrás resolver manualmente.
 
 > **Recomendación:** Realiza los merges desde la interfaz gráfica de GitHub o la terminal para observar cómo Git te notifica el conflicto y te guía en el proceso de resolución.
