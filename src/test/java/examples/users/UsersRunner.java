@@ -5,8 +5,8 @@ import com.intuit.karate.junit5.*;
 class UsersRunner {
     
     @Karate.Test
-    Karate testUsers() {
-        return Karate.run("users").relativeTo(getClass());
+    Karate testGetUsers() {
+        return Karate.run("get-all-users").relativeTo(getClass());
     }    
 
 }
