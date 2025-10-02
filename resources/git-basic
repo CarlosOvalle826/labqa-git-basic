@@ -1,0 +1,29 @@
+$ git clone <url>
+# Copia un proyecto remoto en tu PC.
+
+$ git branch -a
+# Lista todas las ramas (locales y remotas).
+
+$ git checkout <rama>
+# Cambia a otra rama.
+
+$ git checkout -b <nueva-rama>
+# Crea y cambia a una nueva rama.
+
+$ git status
+# Muestra el estado de los archivos.
+
+$ git add .
+# Añade todos los cambios al área de preparación.
+
+$ git commit -m "mensaje"
+# Guarda los cambios con un mensaje.
+
+$ git merge <rama>
+# Une otra rama a la actual.
+
+$ git pull origin <rama>
+# Trae los últimos cambios remotos.
+
+$ git push origin <rama>
+# Sube tus cambios al repositorio remoto.
