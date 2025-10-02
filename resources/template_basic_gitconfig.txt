@@ -1,0 +1,3 @@
+[user]
+    name = mi_user_repo
+    email = mi_email_repo
