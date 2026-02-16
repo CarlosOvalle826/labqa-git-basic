@@ -12,14 +12,14 @@
         <java.version>17</java.version>
         <maven.compiler.version>3.11.0</maven.compiler.version>
         <maven.surefire.version>3.0.0</maven.surefire.version>
-        <karate.dsl.version>1.5.0</karate.dsl.version>
+        <karate.dsl.version.stable>1.5.0</karate.dsl.version.stable>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>io.karatelabs</groupId>
             <artifactId>karate-junit5</artifactId>
-            <version>${karate.dsl.version}</version>
+            <version>${karate.dsl.version.stable}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
